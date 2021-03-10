@@ -48,11 +48,6 @@ install_button = Button(
     command = install_button_callback
 )
 
-
-def enter(event):
-    install_button.invoke()
-
-
 instructions.grid(row=0, column=0, pady=(20,0), padx=15)
 package_entry.grid(row=1, column=0, pady=(5, 10), padx=20)
 install_button.grid(row=2, column=0, pady=(0, 10), padx=(200, 0))
